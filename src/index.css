@@ -1,13 +1,114 @@
+@font-face {
+  font-family: Gamingfont;
+  src: url('./Assets/Font/BruceForeverRegular-X3jd2.ttf');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  place-items: center;
+  font-family: Gamingfont;
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 35rem;
+
+  gap: 5%;
+}
+
+.cont {
+  min-width: 600px;
+  height: 550px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+  row-gap: 1%;
+  background-color: #8458B3;
+  align-items: center;
+}
+
+.cont div {
+  width: 25%;
+  height: 28%;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 75px;
+}
+
+.results {
+  width: 20%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Gamingfont;
+
+}
+
+button {
+  background-color: limegreen;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px;
+  position: relative;
+  font-family: Gamingfont;
+
+}
+
+button:active {
+  top: 5px;
+  background-color: red;
+}
+
+.x {
+  color: blue;
+}
+
+.y {
+  color:  red;
+}
+
+
+@media only screen and (max-width: 670px) {
+  .cont {
+    min-width: 300px;
+    width: 90%;
+    height: 70%;
+  }
+  .App {
+    gap: 2%;
+  }
+  .results {
+    align-items: flex-start;
+    width: 25%;
+    margin-right: 5px;
+  }
 }
