@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TIC-TAC-TOE/static/css/main.e969d47a.css",
+    "main.js": "/TIC-TAC-TOE/static/js/main.0d450a27.js",
+    "static/media/BruceForeverRegular-X3jd2.ttf": "/TIC-TAC-TOE/static/media/BruceForeverRegular-X3jd2.423a3bdd9faa13b69911.ttf",
+    "index.html": "/TIC-TAC-TOE/index.html",
+    "main.e969d47a.css.map": "/TIC-TAC-TOE/static/css/main.e969d47a.css.map",
+    "main.0d450a27.js.map": "/TIC-TAC-TOE/static/js/main.0d450a27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e969d47a.css",
+    "static/js/main.0d450a27.js"
+  ]
+}
